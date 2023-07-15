@@ -984,7 +984,7 @@ button {
 .modal-form-label {
         display: block;
         margin-bottom: 4px;
-        color: var(--modal-label);
+        color: var(--icons-client);
         font-size: 12px;
         font-family: Roboto;
         font-style: normal;
