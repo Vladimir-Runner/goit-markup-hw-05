@@ -661,21 +661,21 @@ button {
         margin-bottom: 8px;
 }
 
-.mark {}
+
 
 .product {}
 
 
 
-.tom {}
+
 
 .frontend {}
 
-.camila {}
+
 
 .marketing {}
 
-.daniel {}
+
 
 .ui-designer {}
 
@@ -927,40 +927,6 @@ button {
 
 /*  */
 
-.modal-title {}
-
-.modal-form-field-wrap {}
-
-.modal-form-label {}
-
-.modal-form-input-wrap {}
-
-.modal-form-input {}
-
-.modal-icon {}
-
-.modal-form-textarea-wrap {}
-
-.modal-form-textarea {}
-
-.modal-agre-label-wrap {}
-
-.modal-agre-check {}
-
-.visually-hidden {}
-
-.modal-form-text-agre {}
-
-.modal-icon-agre-box {}
-
-.modal-icon-agre {}
-
-.modal-link-agre {}
-
-
-
-.form-button {}
-
 
 .modal-title {
         display: block;
@@ -1050,15 +1016,7 @@ button {
         padding: 8px 16px;
 }
 
-/* .modal-form-textarea::placeholder {
-    color: rgba(46, 47, 66, 0.40);
-    font-size: 12px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px;
-} */
+
 .modal-form-textarea:focus {
         border-color: var(--string-web-cl);
 }
