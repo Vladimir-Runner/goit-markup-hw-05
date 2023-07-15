@@ -19,6 +19,7 @@
 --studio-down-cl: #F4F4FD;
 --border-cl: #e7e9fc;
 --icons-client: #8e8f99;
+--hover-button: #404BBF;
 --hover-footer-bg-links: #31D0AA;
 --btn-border: #e7e9fc;
 --description-card-color: #F4F4FD;
@@ -1206,7 +1207,7 @@ button {
 
  .footer-form-button:hover,
  .footer-form-button:focus {
-         background-color: var(--ocean-cl);
+         background-color: var(--hover-button);
  }
 
  .footer-form-icon {
