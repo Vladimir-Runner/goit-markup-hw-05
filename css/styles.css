@@ -779,12 +779,13 @@ button {
         font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
+        padding: 0;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--string-web-cl);
         display: inline-block;
-        /* margin-bottom: 16px; */
+        margin-bottom: 16px; 
 }
 
 .logo-studio-footer {
@@ -807,7 +808,7 @@ button {
         color: #FFF;
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
@@ -1052,9 +1053,11 @@ button {
         background-color: #404BBF;
         border: none;
         fill: #F4F4FD;
+        /* white-space: nowrap; */
 }
 
 .modal-form-text-agre {
+        display: flex;
         color: #8E8F99;
         font-size: 12px;
         font-family: Roboto;
@@ -1062,6 +1065,8 @@ button {
         font-weight: 400;
         line-height: 1.17;
         letter-spacing: 0.04em;
+        /* white-space: nowrap; */
+
 }
 
 .modal-link-agre {
@@ -1091,7 +1096,7 @@ button {
 
 .form-button:hover,
 .form-button:focus {
-        background-color: var(--hover-list-color);
+        background-color: var(--ocean-cl);
 }
 
 
@@ -1135,7 +1140,7 @@ button {
          font-family: Roboto;
          font-style: normal;
          font-weight: 500;
-         line-height: 24px;
+         line-height: 1.5;
          letter-spacing: 0.32px;
          margin-bottom: 16px;
  }
@@ -1174,7 +1179,7 @@ button {
          font-family: Roboto;
          font-style: normal;
          font-weight: 400;
-         line-height: 24px;
+         line-height: 2;
          letter-spacing: 0.48px;
  }
 
@@ -1198,7 +1203,7 @@ button {
          font-family: Roboto, sans-serif;
          font-style: normal;
          font-weight: 500;
-         line-height: 24px;
+         line-height: 1.5;
          letter-spacing: 0.64px;
          border: none;
          transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1212,7 +1217,7 @@ button {
 
  .footer-form-icon {
          fill: #fff;
-         margin-left: 16px;
+         /* margin-left: 16px; */
  }
 
 
